@@ -53,11 +53,11 @@ startBtn.addEventListener('click', () => {
         
         if (diff <= 0) {
             clearInterval(intervalId);
-            startBtn.disabled = false;
+            startBtn.disabled = true;
             inputEl.disabled = false;
             iziToast.success({
                 title: 'Countdown Done!',
-                message: 'Please, reload page and choose another date!'
+                message: 'Please choose another date!'
             }); 
             timerActive = false;
         } else {
