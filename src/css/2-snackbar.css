@@ -1,0 +1,30 @@
+.input-lbl {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text{
+    height: 25px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.fieldset-box {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+}
+form {
+    width: 250px;
+    margin: auto;
+}
+
+.home-link:hover,
+.home-link:focus {
+    margin: auto;
+    color: palevioletred;
+    transition: all 0.5s ease-in-out;
+}
+
